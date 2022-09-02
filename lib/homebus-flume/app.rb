@@ -10,7 +10,7 @@ require 'dotenv'
 
 require 'date'
 
-class FlumeHomebusApp < Homebus::App
+class HomebusFlume::App < Homebus::App
   DDC_WATER_FLOW = 'org.homebus.experimental.water-flow'
 
   def initialize(options)

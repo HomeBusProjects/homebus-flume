@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'homebus-flume/options'
+require 'homebus-flume/app'
+
+options = HomebusFlume::Options.new
+app = HomebusFlume::App.new(options.options)
+app.run!
+

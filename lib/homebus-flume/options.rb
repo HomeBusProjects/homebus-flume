@@ -1,6 +1,8 @@
 require 'homebus/options'
 
-class FlumeHomebusAppOptions < Homebus::Options
+require 'homebus-flume/version'
+
+class HomebusFlume::Options < Homebus::Options
   def app_options(op)
   end
 
@@ -9,7 +11,7 @@ class FlumeHomebusAppOptions < Homebus::Options
   end
 
   def version
-    '0.0.1'
+    HomebusFlume::VERSION
   end
 
   def name
