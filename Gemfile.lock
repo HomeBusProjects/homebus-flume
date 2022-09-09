@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/HomeBusProjects/ruby-homebus
-  revision: 400534a58fab1b9537002aa9620e9afc77df8f08
+  revision: c231072e715e142c3cd17fd25d42ecd04b0a3397
   branch: main
   specs:
-    homebus (0.40.0)
+    homebus (0.40.1)
       paho-mqtt (~> 1.0.12)
 
 PATH
@@ -14,18 +14,35 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    bump (0.10.0)
+    diff-lcs (1.5.0)
     dotenv (2.8.1)
     jwt (2.5.0)
     paho-mqtt (1.0.12)
+    rspec (3.11.0)
+      rspec-core (~> 3.11.0)
+      rspec-expectations (~> 3.11.0)
+      rspec-mocks (~> 3.11.0)
+    rspec-core (3.11.0)
+      rspec-support (~> 3.11.0)
+    rspec-expectations (3.11.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-mocks (3.11.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-support (3.11.0)
 
 PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
+  bump
   dotenv
   homebus!
   homebus-flume!
   jwt
+  rspec
 
 BUNDLED WITH
    2.3.21

@@ -1,5 +1,8 @@
 # homebus-flume
 
+![rspec](https://github.com/HomeBusProjects/homebus-flume/actions/workflows/rspec.yml/badge.svg)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+
 This is a simple Homebus publisher which reads water consumption data from the Flume API and publishes it to a Homebus network.
 
 This is still under development and is really not ready for use.
